@@ -1,15 +1,16 @@
-# go-to-network
-Go to Network (other allowed stylations are go2network, go to network, and go-to-network) is a revolutionary cluster-computing centric, actor based, event driven programming paradigm, language, compiler and runtime that fundamentally refactors the flexibiity, high-availability and achievable resource usage of software projects to an extent never before seen. It will supersede the microservices architecture with something infinitely more agile, that will shape software architecture for the next century.
+# Go2Network
+Go2Network is a revolutionary cluster-computing centric, event driven programming paradigm, compiler and runtime, built on top of Go. It fundamentally refactors the flexibiity, high-availability, development speed, and accessible resource power of software projects to an extent never before seen.
 
-Go to Network will be built on-top of the Go programming language, compiler, runtime and online course, since it has excellent Reactive Programming faculties, but has very procedural-paradigm sensibilities, making it easy for beginners to learn. It has also been used to write many microservice technologies like Docker, Kubernetes and others. Go to Network will share many of the same syntax as Go, but will work very differently.
+In the Dark Ages of Programming, overbloated, fragile, grotesque Monolith applications were developed at a snail's pace, unaware that the times have changed and nobody wants their lame product anymore. Recently some have started stepping away from the darkness with Microservice architected applications, instantly fixing some of the problems of Monolith software. However Microservices don't even compare to the power unlocked by Go2Network, which supersedes them with something infinitely more agile, that will shape software architecture for the next century.
 
-Each Go to Network module runs an individual event nanoservice, which intrinsically operates in tandem with a receiver nanoservice and a sender nano-service to create a code-as-data-pipeline ecosystem. Each nanoservice is infinitely scalable, to the point where you can have as many of one nanoservice as you want.
+Each Go2Network module runs an individual event nanoservice, which intrinsically operates in tandem with a receiver nanoservice and a sender nano-service to create a dynamic code-as-data-pipeline ecosystem. Each comprising nanoservice can be independently swapped in or out without having to rewrite any other nanoservice, although that's easy to do if you want. Each nanoservice is also infinitely scalable, to the point where you can have as many of one nanoservice as you want.
 
-Unlike microservices, this configuration allows for continuous delivery down to the op-code. Research shows that most common number of lines of code that cause bugs are just one line, but changing this requires rebuilding the entire application and having to deploy it to a server. With Go to Network, you can update those bugs without having to worry about _any_ other parts of your system. 
+The trick comes in with how well-integrated each Go2Network nanoservice is with each other, while being completely independent. It feels just like you're writing a regular local program, but you're in-fact writing a distributed masterpiece. This is thanks to Go2Network's world-class toolset. Imagine automatically creating a nanoservice configuration for each function or even line inside a code file. You just need to configure the networking and deploy them. And for smaller projects, the `microgo2network` tool can deploy a full Go2Network cluster on a single machine, supporting up to 65535 nanoservices.
 
-While Functional Programming is a young Paradigm that has shown to be very good at solving certain issues like Monads, Go to Network will rely on the flexibility of procedural style syntax. The Nano Service as a System will provide enough flexibility for devopers to implement their own functional programming constructs on top of the base framework.
+This configuration allows for continuous delivery down to the op-code. Everybody knows that most common number of lines of code that cause bugs are just one line. But changing this requires rebuilding the entire application and having to deploy it to a server. With Go2Network, you can update those bugs without having to worry about _any_ other parts of your system. This leads to a development workflow where you don't need to wait months for whole departments to finish developing, you can get apps out when they're fresh. 
 
-The following is an example of a "hello world" program:
+
+The following is an example of a "hello world" nanoservice ecosystem:
 
 nanoservice 1:
 ```yaml
@@ -37,8 +38,10 @@ code:
 
 ```
 
-Note that `hello` is declared in the first nanoservice, and used in the second. Go to Network automatically transfers program scope in a smart way, meaning that data is only transmitted over the network if it is referenced again. Go to Network will keep track of all the previous nanoservices and resolve data automatically.
+Note that `hello` is declared in the first nanoservice, and used in the second. Go2Network automatically transfers program scope in a smart way, meaning that data is only transmitted over the network if it is referenced again. Go2Network will keep track of all the previous nanoservices and resolve data automatically.
 
-Go to Network will also support a world class toolset. Imagine automatically creating a nanoservice configuration for each function or line in a Go to Network file. You just need to configure the networking and deploy them. And for smaller projects, the microgotonetwork tool can deploy a full Go to Network cluster, on a single machine supporting up to 65535 nanoservices.
+Go2Network will be built on-top of the Go programming language, compiler, runtime and online course, since Go has excellent Reactive Programming faculties, but has very procedural-paradigm sensibilities, making it easy for beginners to learn. It has also been used to write many microservice technologies like Docker, Kubernetes and others. Go2Network will share many of the same syntax as Go, but will work very differently.
 
-As someone who has not used Go or any similar languages, I will be seeking work from experienced programmers to help develop how Go to Network will integrate with Go. So if you have any we would love you to join the Go to Network Foundation™ and help program the future of programming.
+While Functional Programming is a young Paradigm that has shown to be very good at solving certain issues like Monads, Go2Network will forego functions to rely on the flexibility of procedural style syntax. The Nano Service-as-a-Software architecture will provide enough flexibility for developers to implement their own functional programming constructs on top of the base framework.
+
+As someone who has not used Go or any similar languages, I will be seeking work from experienced programmers to help develop how Go2Network will integrate with Go. So if you have any we would love you to join the Go2Network Foundation™ and help program the future of programming.
