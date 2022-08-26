@@ -10,7 +10,8 @@ The following is an example of a "hello world" nanoservice ecosystem:
 nanoservice 1:
 ```yaml
 code:
-  - package main
+  - package hello-world
+  -
   - func main() {
   -   hello := "Hello"
   -   goToNetwork 'print-hello-world'
@@ -19,18 +20,24 @@ goToNetworks:
      print-hello-world:
         host: 104.22.50.212
         username: hello-world-practice
-        password: monkey
+		password: monkey
 ```
  
 nanoservice  2:
 ```yaml
 code:
-- package main
+- package hello-world
+-
 - import "fmt"
-- func main() {
--   fmt.Printf("%s World!", hello)
-- }
-
+-
+- print-hello-world:
+- fmt.Printf("%s World!", hello)
+- goToNetwork 'done'
+goToNetworks:
+     done:
+        host: null
+        username: null
+        username: null
 ```
 
 Note that `hello` is declared in the first nanoservice, and used in the second. Go2Network automatically transfers program scope in a smart way, meaning that data is only transmitted over the network if it is referenced again. Go2Network will keep track of all the previous nanoservices and resolve data automatically.
